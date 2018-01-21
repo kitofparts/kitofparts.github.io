@@ -2,15 +2,15 @@
 
 body {
 	font-family: Georgia, Times;
-	color:#D9C3CE;
+	color:#FFF;
 	background:#D9C3CE url('../img/holding.png');
 	-webkit-font-smoothing: antialiased;
-	position: relative;
-	min-height: 100% !important;
+	text-align: center;
+	height: 100%;
+	margin:0;
  }
 
 html { height: 100% } 
-
 
 h1, h2, h3, h4, h5 {
   	font-family: "CRCO Bold", "Helvetica", Helvetica, Arial, sans-serif;
@@ -65,6 +65,12 @@ a:hover {
 
 /* GLOBAL ---------------------------------------------------------------------------- */
 
+/* Placeholder */
+.placeholder-container {
+	padding-top:180px;
+}
+
+
 /* Columns */
 
 .columns {
@@ -80,10 +86,6 @@ a:hover {
     margin:0;
 }
 
-/* Header */
-[data-magellan-expedition] {
-    padding:0;
-}
 
 /* Page */
 #page-container {
